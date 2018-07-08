@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addOneForTeamB(View v) {
         mViewModel.scoreTeamB = mViewModel.scoreTeamB + 1;
-        displayForTeamA(mViewModel.scoreTeamB);
+        displayForTeamB(mViewModel.scoreTeamB);
     }
 
     /**
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addTwoForTeamB(View v) {
         mViewModel.scoreTeamB = mViewModel.scoreTeamB + 2;
-        displayForTeamA(mViewModel.scoreTeamB);
+        displayForTeamB(mViewModel.scoreTeamB);
     }
 
     /**
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addThreeForTeamB(View v) {
         mViewModel.scoreTeamB = mViewModel.scoreTeamB + 3;
-        displayForTeamA(mViewModel.scoreTeamB);
+        displayForTeamB(mViewModel.scoreTeamB);
     }
 
     /**
